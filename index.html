@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Modern Homes | BlueView Builder</title>
+<style>
+:root{--ink:#20145d;--muted:#536078;--sage:#4414ba;--sage2:#eef7fa;--cream:#ffffff;--line:#e2e7ed;--white:#fff;--serif:Georgia,'Times New Roman',serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--cream);font:15px/1.55 Arial,Helvetica,sans-serif}button,input,select{font:inherit}a{color:inherit;text-decoration:none}.topbar{background:#29342b;color:#f8f7f1;padding:8px 5.5%;display:flex;justify-content:flex-end;gap:25px;font-size:12px}.nav{height:82px;padding:0 5.5%;display:flex;align-items:center;justify-content:space-between;background:#fbfaf6;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}.logo{font-size:17px;letter-spacing:.14em;font-weight:700}.logo small{display:block;font-size:8px;letter-spacing:.32em;font-weight:400;margin-top:3px}.navlinks{display:flex;align-items:center;gap:30px;font-size:13px}.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--sage);color:white;border:1px solid var(--sage);padding:13px 20px;letter-spacing:.02em;font-size:12px;cursor:pointer;transition:.2s}.btn:hover{background:#3d4c3a}.btn.outline{background:transparent;color:var(--ink);border-color:#aeb5a9}.wrap{width:min(1250px,90%);margin:auto}.eyebrow{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--sage);font-weight:700}.hero{max-width:1250px;margin:0 auto;min-height:590px;display:grid;grid-template-columns:43% 57%;background:#efeee8}.hero-copy{padding:95px 7vw 75px 12.7%;display:flex;flex-direction:column;justify-content:center}.hero h1{font:clamp(48px,5vw,70px)/1.02 var(--serif);font-weight:400;letter-spacing:-.04em;margin:18px 0}.hero p{color:#5d665c;max-width:410px;font-size:15px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.hero-image{min-height:590px;background:linear-gradient(90deg,rgba(0,0,0,.05),transparent),url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85') center/cover}.trust-row{display:flex;gap:24px;margin-top:42px;font-size:11px;color:#626b61}.trust-row span:before{content:'— ';color:var(--sage)}.section{padding:78px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:30px}.section h2{font:42px/1.1 var(--serif);font-weight:400;margin:9px 0}.section-intro{color:var(--muted);max-width:470px}.style-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.style-card{position:relative;min-height:310px;overflow:hidden;background:#ddd}.style-card img{width:100%;height:310px;object-fit:cover;display:block;transition:transform .5s}.style-card:hover img{transform:scale(1.04)}.style-card:after{content:'';position:absolute;inset:35% 0 0;background:linear-gradient(transparent,rgba(0,0,0,.68))}.style-label{position:absolute;z-index:1;bottom:23px;left:24px;color:white}.style-label small{letter-spacing:.16em;font-size:9px}.style-label h3{font:26px var(--serif);margin:4px 0}.search-section{background:#eeefe9}.filterbar{display:grid;grid-template-columns:repeat(4,1fr) auto;gap:10px;background:white;padding:18px;border:1px solid var(--line);margin:28px 0 18px}.field label{display:block;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#687166;margin:0 0 7px}.field select{width:100%;border:0;border-bottom:1px solid #cfd3ca;padding:9px 3px;background:white;color:var(--ink);outline:none}.filter-actions{display:flex;align-items:end;gap:10px}.text-btn{background:none;border:0;color:var(--sage);font-size:12px;text-decoration:underline;cursor:pointer;padding:12px 5px}.results-meta{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:12px;margin:22px 0}.results-meta select{border:1px solid var(--line);background:white;padding:9px}.model-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.model-card{background:white;border:1px solid var(--line);cursor:pointer;transition:.2s}.model-card:hover{transform:translateY(-4px);box-shadow:0 12px 28px #26332214}.model-img{height:225px;position:relative;overflow:hidden}.model-img img{width:100%;height:100%;object-fit:cover;display:block}.tag{position:absolute;top:15px;left:15px;background:#f8f7f1;padding:7px 10px;font-size:9px;letter-spacing:.13em;color:#42523f}.model-info{padding:19px 20px 21px}.model-title-row{display:flex;justify-content:space-between;gap:10px;align-items:start}.model-info h3{font:27px var(--serif);font-weight:400;margin:0 0 4px}.price{font-size:13px;color:var(--sage);font-weight:700;white-space:nowrap}.specs{display:flex;gap:15px;border-top:1px solid var(--line);margin-top:15px;padding-top:13px;color:#626b61;font-size:11px}.specs span{white-space:nowrap}.view-link{display:block;margin-top:17px;color:var(--sage);font-size:11px;letter-spacing:.08em;text-transform:uppercase}.no-results{grid-column:1/-1;text-align:center;padding:50px;background:white;color:var(--muted)}.custom-band{background:#29342b;color:#f8f7f1;padding:65px 0}.custom-inner{display:flex;align-items:center;justify-content:space-between;gap:35px}.custom-band h2{font:40px var(--serif);font-weight:400;margin:8px 0}.custom-band p{color:#d2d8cf;max-width:520px}.custom-band .btn{background:#f8f7f1;color:#29342b;border-color:#f8f7f1}.footer{padding:35px 5.5%;display:flex;justify-content:space-between;color:#6b7369;font-size:11px}.detail{display:none}.detail.active{display:block}.collection.hidden{display:none}.detail-hero{display:grid;grid-template-columns:56% 44%;min-height:530px;background:#efeee8}.detail-photo{min-height:530px;background-position:center;background-size:cover}.detail-copy{padding:65px 9% 55px 10%;display:flex;flex-direction:column;justify-content:center}.crumb{font-size:11px;color:#778073;margin-bottom:25px}.detail-copy h1{font:58px/1 var(--serif);font-weight:400;margin:12px 0}.detail-copy p{color:#626b61}.detail-price{font-size:20px;color:var(--sage);margin:12px 0}.detail-specs{display:flex;gap:18px;padding:17px 0;border-top:1px solid #cfd3ca;border-bottom:1px solid #cfd3ca;font-size:12px;margin:12px 0 20px}.detail-content{padding:65px 0}.floor-layout{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}.floorplan{background:#fff;border:1px solid var(--line);padding:22px}.floorplan svg{width:100%;height:auto}.floor-copy h2{font:38px var(--serif);font-weight:400}.floor-copy p{color:var(--muted)}.back{border:0;background:none;color:var(--sage);cursor:pointer;margin-bottom:20px;padding:0}.faq{padding:55px 0}.faq h2{font:38px var(--serif);font-weight:400}.faq details{border-top:1px solid var(--line);padding:17px 0}.faq summary{cursor:pointer;font-size:14px}.faq p{color:var(--muted);max-width:760px;font-size:13px}.hidden-card{display:none}
+@media(max-width:850px){.navlinks{gap:12px}.navlinks a:not(.btn){display:none}.hero,.detail-hero{grid-template-columns:1fr}.hero-copy{padding:65px 7%}.hero-image{min-height:360px}.style-grid,.model-grid{grid-template-columns:repeat(2,1fr)}.filterbar{grid-template-columns:repeat(2,1fr)}.filter-actions{grid-column:1/-1}.detail-photo{min-height:380px}.detail-copy{padding:45px 7%}.floor-layout{grid-template-columns:1fr}.custom-inner{display:block}.custom-inner .btn{margin-top:20px}}
+@media(max-width:560px){.topbar{justify-content:center;gap:12px;font-size:10px}.nav{height:70px}.logo{font-size:14px}.hero h1{font-size:48px}.style-grid,.model-grid{grid-template-columns:1fr}.style-card,.style-card img{height:270px;min-height:270px}.filterbar{grid-template-columns:1fr 1fr;padding:12px}.filter-actions{display:flex;grid-column:1/-1}.filter-actions .btn{flex:1}.section{padding:55px 0}.section-head{display:block}.section h2{font-size:35px}.results-meta{align-items:start;gap:10px;flex-direction:column}.detail-copy h1{font-size:48px}.footer{display:block;line-height:2.2}}
+
+/* BlueView reference-page styling refresh */
+body{background:#fff;color:#242a30;font-family:Arial,Helvetica,sans-serif}
+.topbar{background:#174f78;color:#fff}
+.nav{background:#fff;border-bottom:1px solid #dce2e7}
+.logo{color:#174f78;letter-spacing:.11em}
+.logo small{color:#68727b}
+.navlinks a{color:#303942}
+.btn{background:#174f78;border-color:#174f78;color:#fff;border-radius:2px;font-weight:700;letter-spacing:.06em}
+.btn:hover{background:#103b5b;border-color:#103b5b}
+.btn.outline{color:#174f78;border-color:#174f78;background:transparent}
+.eyebrow{color:#347ca8;letter-spacing:.16em}
+.hero{background:#f3f6f8}
+.hero-copy{padding-top:82px;padding-bottom:82px}
+.hero h1,.section h2,.custom-band h2,.detail-copy h1,.floor-copy h2,.faq h2{font-family:Arial,Helvetica,sans-serif;font-weight:700;letter-spacing:-.035em}
+.hero h1{font-size:clamp(42px,4.8vw,64px);line-height:1.04;color:#202a32}
+.hero p,.section-intro{color:#58636d}
+.hero-image{background-position:center}
+.trust-row{color:#58636d}
+.trust-row span:before{color:#347ca8}
+.section{background:#fff}
+.section h2{font-size:clamp(30px,3vw,42px);color:#202a32}
+.style-card{border-radius:2px}
+.style-label h3{font-family:Arial,Helvetica,sans-serif;font-weight:700}
+.search-section{background:#f3f6f8}
+.filterbar{border:1px solid #dce2e7;box-shadow:0 3px 12px #142b3b0a}
+.field select{color:#303942;border-bottom-color:#cbd5dd}
+.field label{color:#52616c;font-weight:700}
+.model-card{border:1px solid #dce2e7;border-radius:2px;box-shadow:0 2px 8px #1a35450a}
+.model-card:hover{box-shadow:0 10px 24px #173b5518}
+.tag{background:#eaf2f7;color:#174f78;font-weight:700}
+.model-info h3{font-family:Arial,Helvetica,sans-serif;font-weight:700;color:#202a32;font-size:22px}
+.price{color:#174f78}
+.specs{color:#58636d}
+.view-link{color:#174f78;font-weight:700}
+.custom-band{background:#174f78;color:#fff}
+.custom-band .eyebrow{color:#b9d8ec!important}
+.custom-band p{color:#e0eaf0}
+.custom-band .btn{background:#fff;color:#174f78;border-color:#fff}
+.faq{background:#fff}
+.faq details{border-color:#dce2e7}
+.faq summary{font-weight:700;color:#27343d}
+.faq p{color:#58636d}
+.detail-hero{background:#f3f6f8}
+.detail-copy h1{font-size:clamp(42px,4vw,58px);color:#202a32}
+.detail-price{color:#174f78;font-weight:700}
+.detail-specs{border-color:#cbd5dd;color:#4d5962}
+.detail-content{background:#fff}
+.floorplan{border-color:#dce2e7}
+.floorplan svg rect{fill:#f8fafb}
+.floorplan svg path{stroke:#174f78}
+.floorplan svg g{fill:#52616c}
+.floorplan svg g + g{stroke:#9eb5c5}
+.crumb{color:#68727b}
+.back,.text-btn{color:#174f78}
+.footer{background:#f3f6f8;color:#58636d}
+@media(max-width:850px){.hero-copy{padding:58px 7%}}
+
+
+/* Exact BlueView brand colors from the supplied reference screenshot */
+:root{--ink:#20145d;--muted:#536078;--sage:#4414ba;--sage2:#eef7fa;--cream:#fff;--line:#e2e7ed;--white:#fff;--serif:Georgia,'Times New Roman',serif}
+body{background:#fff;color:#20145d;font-family:Georgia,'Times New Roman',serif}
+.topbar{background:#fff;color:#20145d;padding:7px 3.4%;font-family:Arial,Helvetica,sans-serif;font-size:10px;justify-content:space-between}
+.nav{height:44px;padding:0 3.4%;background:#4414ba;border:0;color:#fff;position:sticky;top:0}
+.logo{color:#fff;font-family:Arial,Helvetica,sans-serif;font-size:20px;font-weight:900;letter-spacing:-.08em;text-shadow:1px 1px 0 #a9a0dc}
+.logo small{display:none}
+.navlinks{gap:20px;font-family:Arial,Helvetica,sans-serif;font-size:11px}
+.navlinks a{color:#fff}
+.btn{background:#295cff;border-color:#295cff;color:#fff;border-radius:2px;font-family:Arial,Helvetica,sans-serif;font-size:11px;font-weight:700;letter-spacing:0;padding:12px 20px}
+.btn:hover{background:#1748e6;border-color:#1748e6}
+.btn.outline{background:transparent;color:#4414ba;border-color:#4414ba}
+.eyebrow{color:#295cff;letter-spacing:0;text-transform:none;font:13px Georgia,'Times New Roman',serif;font-weight:400}
+.hero{min-height:360px;grid-template-columns:40% 60%;background:#f0f7fa}
+.hero-copy{padding:50px 6vw 48px 13.4%}
+.hero h1{font:700 clamp(34px,3.3vw,48px)/1.05 Georgia,'Times New Roman',serif;letter-spacing:-.025em;color:#20145d;margin:14px 0}
+.hero p{font:11px/1.65 Arial,Helvetica,sans-serif;color:#536078;max-width:390px}
+.hero-image{min-height:360px;background-image:linear-gradient(90deg,rgba(240,247,250,.72),rgba(240,247,250,.08)),url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85')}
+.trust-row{font:10px Arial,Helvetica,sans-serif;color:#20145d;margin-top:25px}
+.trust-row span:before{color:#295cff}
+.section{padding:55px 0;background:#fff}
+.section h2,.custom-band h2,.detail-copy h1,.floor-copy h2,.faq h2{font-family:Georgia,'Times New Roman',serif;font-weight:700;letter-spacing:-.02em;color:#20145d}
+.section h2{font-size:34px}
+.section-intro{font:12px/1.65 Arial,Helvetica,sans-serif;color:#536078}
+.style-card,.model-card{border-radius:5px;overflow:hidden}
+.style-card img{height:260px}
+.style-label h3{font-family:Georgia,'Times New Roman',serif}
+.search-section{background:#fff}
+.filterbar{border:1px solid #e2e7ed;box-shadow:none;padding:16px;background:#f7fbfd}
+.field label{font:10px Arial,Helvetica,sans-serif;color:#20145d;font-weight:700}
+.field select{font:12px Arial,Helvetica,sans-serif;border-bottom-color:#d7e0e8}
+.model-card{border:0;box-shadow:0 1px 8px #20145d12;background:#fff}
+.model-card:hover{box-shadow:0 8px 22px #20145d1c}
+.model-img{height:205px}
+.tag{background:#eef7fa;color:#4414ba;font:700 9px Arial,Helvetica,sans-serif}
+.model-info h3{font:700 22px Georgia,'Times New Roman',serif;color:#20145d}
+.price,.view-link{color:#4414ba}
+.specs{font:11px Arial,Helvetica,sans-serif;color:#536078}
+.custom-band{background:#4414ba;color:#fff}
+.custom-band .eyebrow{color:#cfc5ff!important}
+.custom-band h2{color:#fff}
+.custom-band p{font:12px/1.7 Arial,Helvetica,sans-serif;color:#eee9ff}
+.custom-band .btn{background:#295cff;color:#fff;border-color:#295cff}
+.faq{padding:55px 0;background:#fff}
+.faq h2{font-size:30px}
+.faq details{border-top:1px solid #dfe9ee;padding:15px 18px;background:#eef7fa}
+.faq details:last-child{border-bottom:1px solid #dfe9ee}
+.faq summary{font:700 13px Georgia,'Times New Roman',serif;color:#20145d}
+.faq p{font:11px/1.6 Arial,Helvetica,sans-serif;color:#536078}
+.detail-hero{background:#f0f7fa}
+.detail-copy{padding:48px 8%}
+.detail-copy h1{font-size:46px}
+.detail-copy p{font:12px/1.65 Arial,Helvetica,sans-serif;color:#536078}
+.detail-price{color:#4414ba;font:700 19px Arial,Helvetica,sans-serif}
+.detail-specs{font:11px Arial,Helvetica,sans-serif;color:#20145d;border-color:#d5e1e8}
+.crumb{font:10px Arial,Helvetica,sans-serif;color:#68758a}
+.back,.text-btn{color:#295cff;font:12px Arial,Helvetica,sans-serif}
+.floorplan{border-color:#e2e7ed;border-radius:4px}
+.floorplan svg rect{fill:#f7fbfd}
+.floorplan svg path{stroke:#4414ba}
+.floorplan svg g{fill:#20145d}
+.footer{background:#20105c;color:#fff;padding:35px 5.5%;font:11px Arial,Helvetica,sans-serif}
+.no-results{font:13px Arial,Helvetica,sans-serif;color:#536078}
+@media(max-width:850px){.nav{height:auto;min-height:54px}.navlinks{gap:10px}.hero-copy{padding:45px 7%}.hero{min-height:0}.hero-image{min-height:300px}}
+@media(max-width:560px){.topbar{font-size:9px;gap:6px}.nav{padding:10px 5%}.logo{font-size:17px}.hero h1{font-size:37px}.hero-copy{padding:42px 7%}.section{padding:42px 0}.section h2{font-size:29px}}
+
+
+.brand-logo{display:block;width:112px;height:auto;max-height:40px;object-fit:contain}
+.nav{padding-left:max(calc((100% - 1250px)/2),3.4%);padding-right:max(calc((100% - 1250px)/2),3.4%)}
+.topbar{padding-left:max(calc((100% - 1250px)/2),3.4%);padding-right:max(calc((100% - 1250px)/2),3.4%)}
+.hero-image{background-color:#eaf2f7;background-image:linear-gradient(90deg,rgba(240,247,250,.72),rgba(240,247,250,.08)),url('https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1600&q=85'),url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1600&q=85')}
+.model-img img,.style-card img{background:#eaf2f7}
+@media(max-width:560px){.brand-logo{width:96px;max-height:35px}}
+
+
+/* Full-width hero layout update only: retain all existing content and assets */
+.hero{
+  position:relative;
+  display:block;
+  width:100%;
+  max-width:none;
+  min-height:590px;
+  margin:0;
+  overflow:hidden;
+  background:#f0f7fa;
+}
+.hero-copy{
+  position:relative;
+  z-index:1;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  width:min(100%,1250px);
+  min-height:590px;
+  margin:0 auto;
+  padding:50px 10px 48px 5px;
+  box-sizing:border-box;
+}
+.hero-copy > *{max-width:490px}
+.hero-image{
+  position:absolute;
+  z-index:0;
+  top:0;
+  right:0;
+  width:58%;
+  height:100%;
+  min-height:590px;
+  background-position:center;
+  background-size:cover;
+}
+@media(max-width:850px){
+  .hero{min-height:0}
+  .hero-copy{
+    width:100%;
+    min-height:0;
+    margin:0;
+    padding:45px 7%;
+  }
+  .hero-copy > *{max-width:100%}
+  .hero-image{
+    position:relative;
+    width:100%;
+    height:360px;
+    min-height:360px;
+  }
+}
+@media(max-width:560px){
+  .hero-copy{padding:42px 7%}
+  .hero-image{height:280px;min-height:280px}
+}
+
+</style>
+</head>
+<body>
+<div class="topbar"><span>info@blueviewbuilder.com</span><span>Text 858-367-7115</span><span>Call 800-688-3017</span></div>
+<header class="nav"><a class="logo" href="#" onclick="showCollection();return false" aria-label="BlueView Builder home"><img src="assets/blueview-logo.png" alt="BlueView Builder" class="brand-logo"></a><nav class="navlinks"><a href="#styles">Home Styles</a><a href="#models">Explore Models</a><a href="#process">How It Works</a><a href="#contact">Contact</a><a class="btn" href="#contact">GET STARTED</a></nav></header>
+<main class="collection" id="collection">
+<section class="hero"><div class="hero-copy"><div class="eyebrow">THE BLUEVIEW COLLECTION / MODERN MODULAR HOMES</div><h1>Modern modular homes<br>made for living.</h1><p>Explore modern modular home designs with open layouts, generous windows, and thoughtful details. Choose a model, review its floor plan, and make the design your own.</p><div class="actions"><a class="btn" href="#models">EXPLORE MODERN DESIGNS</a><a class="btn outline" href="#contact">DISCUSS A CUSTOM HOME</a></div><div class="trust-row"><span>Thoughtful layouts</span><span>Personal finishes</span><span>Custom possibilities</span></div></div><div class="hero-image" role="img" aria-label="Modern modular home exterior"></div></section>
+<section class="section wrap" id="styles"><div class="section-head"><div><div class="eyebrow">ONE STYLE. SO MANY POSSIBILITIES.</div><h2>Classic design. Modern living.</h2></div><p class="section-intro">Browse a range of modern home styles with flexible floor plans, quality construction, and custom design options.</p></div><div class="style-grid">
+<a class="style-card" href="#models"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1100&q=85'"><div class="style-label"><small>01 / MODERN</small><h3>Modern cottage</h3></div></a>
+<a class="style-card" href="#models"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1100&q=85'"><div class="style-label"><small>02 / MODERN</small><h3>Courtyard retreat</h3></div></a>
+<a class="style-card" href="#models"><img loading="lazy" decoding="async" src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=80" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1100&q=85'"><div class="style-label"><small>03 / MODERN</small><h3>Two-story statement</h3></div></a>
+</div></section>
+<section class="section search-section" id="models"><div class="wrap"><div class="eyebrow">FIND YOUR HOME</div><div class="section-head"><div><h2>Find the right home for your needs.</h2><p class="section-intro">Filter by bedrooms, bathrooms, price, and square footage. Select a home to explore its features, floor plan, and pricing.</p></div></div>
+<div class="filterbar">
+<div class="field"><label for="beds">Bedrooms</label><select id="beds"><option value="">Any bedrooms</option><option value="2">2+ bedrooms</option><option value="3">3+ bedrooms</option><option value="4">4+ bedrooms</option></select></div>
+<div class="field"><label for="baths">Bathrooms</label><select id="baths"><option value="">Any bathrooms</option><option value="1">1+ bathrooms</option><option value="2">2+ bathrooms</option><option value="3">3+ bathrooms</option></select></div>
+<div class="field"><label for="price">Price range</label><select id="price"><option value="">Any price</option><option value="250000">Up to $250k</option><option value="300000">Up to $300k</option><option value="350000">Up to $350k</option></select></div>
+<div class="field"><label for="size">Square footage</label><select id="size"><option value="">Any size</option><option value="1500">Up to 1,500 sq ft</option><option value="1800">Up to 1,800 sq ft</option><option value="2200">Up to 2,200 sq ft</option></select></div>
+<div class="filter-actions"><button class="btn" id="apply">SHOW HOMES</button><button class="text-btn" id="reset">Reset</button></div>
+</div>
+<div class="results-meta"><span id="count">Showing 6 home concepts</span><label>Sort by <select id="sort"><option value="featured">Featured</option><option value="price">Price: low to high</option><option value="size">Square footage</option></select></label></div>
+<div class="model-grid" id="grid"></div>
+</div></section>
+<section class="custom-band" id="process"><div class="wrap custom-inner"><div><div class="eyebrow" style="color:#c6d0c1">YOUR IDEAS. OUR TEAM.</div><h2>Looking for something different?</h2><p>Bring your inspiration. We’ll work with you on the design, floor plan, and finishes to make your home your own.</p></div><a class="btn" href="#contact">LET’S CREATE YOUR HOME</a></div></section>
+<section class="faq wrap"><div class="eyebrow">BEFORE YOU TAKE THE NEXT STEP</div><h2>Good questions. Helpful answers.</h2><details><summary>Can I customize a modern prefab floor plan?</summary><p>Yes. BlueView can work from your inspiration and priorities to develop a layout around your property, engineering, budget, and applicable requirements.</p></details><details><summary>Can I see a floor plan for a specific model?</summary><p>Choose a model card to view its concept floor plan and discuss available options with the BlueView team.</p></details><details><summary>How much does a modern modular home cost?</summary><p>Pricing depends on design, selections, site conditions, delivery, permits, and project scope. Request a project-specific estimate for accurate pricing.</p></details></section>
+<section class="custom-band" id="contact"><div class="wrap custom-inner"><div><div class="eyebrow" style="color:#c6d0c1">LET’S TALK ABOUT YOUR MODERN HOME</div><h2>Bring your ideas. We’ll help with next steps.</h2><p>Share your preferred model, location, and goals. Our team can help you explore the next steps.</p></div><a class="btn" href="mailto:info@blueviewbuilder.com?subject=Modern%20Home%20Inquiry">EMAIL BLUEVIEW BUILDER</a></div></section>
+</main>
+<main class="detail" id="detail"><section class="detail-hero"><div class="detail-photo" id="detailPhoto"></div><div class="detail-copy"><button class="back" onclick="showCollection()">← Back to modern models</button><div class="crumb">HOME / MODERN / <span id="crumbName">THE ALDER</span></div><div class="eyebrow" id="detailTag">SEMI CUSTOM MODEL</div><h1 id="detailName">The Alder</h1><p id="detailDesc">A welcoming modern home with a considered layout, generous natural light, and room to make it your own.</p><div class="detail-price" id="detailPrice">$240,000–$310,000</div><div class="detail-specs" id="detailSpecs">3 Bedrooms · 2 Bathrooms · 1,680 Sq Ft</div><a class="btn" id="inquiry" href="mailto:info@blueviewbuilder.com?subject=The%20Alder%20Inquiry">REQUEST PRICING & DETAILS</a></div></section>
+<section class="detail-content wrap"><div class="floor-layout"><div class="floor-copy"><div class="eyebrow">DESIGNED AROUND THE WAY YOU LIVE</div><h2>A floor plan with room to make it yours.</h2><p>Explore the layout concept for this model. Room dimensions, structural details, and final configurations are confirmed during the design and engineering process.</p><p><strong>Want to personalize this home?</strong><br>Our team can help you discuss layout options, materials, finishes, and site requirements.</p><a class="btn" id="floorCta" href="mailto:info@blueviewbuilder.com">DISCUSS THIS FLOOR PLAN</a></div><div class="floorplan"><div class="eyebrow">ILLUSTRATIVE FLOOR PLAN</div><svg viewBox="0 0 620 370" role="img" aria-label="Illustrative home floor plan"><rect x="20" y="20" width="580" height="325" fill="#fafaf6" stroke="#374337" stroke-width="7"/><path d="M260 20V210H20 M260 210H600 M420 20V210 M420 210V345 M260 210V345 M20 210H600" fill="none" stroke="#374337" stroke-width="5"/><path d="M260 110H420 M340 20V110 M110 210V345 M420 270H600" fill="none" stroke="#374337" stroke-width="3"/><g fill="#697568" font-family="Arial" font-size="15" text-anchor="middle"><text x="140" y="100">BEDROOM 2</text><text x="340" y="70">KITCHEN</text><text x="510" y="110">PRIMARY</text><text x="140" y="285">LIVING</text><text x="340" y="280">DINING</text><text x="510" y="300">BATH</text></g><g stroke="#9aa596" stroke-width="5"><path d="M80 20H150 M460 20H530 M20 260V310 M600 60V120"/></g></svg><p style="font-size:10px;color:#7b8278">Concept illustration only. Not a construction document.</p></div></div></section>
+<section class="custom-band"><div class="wrap custom-inner"><div><div class="eyebrow" style="color:#c6d0c1">MAKE IT YOURS</div><h2>Good design starts with your ideas.</h2><p>Talk with our team about adapting this model to your property, priorities, and budget.</p></div><a class="btn" id="detailContact" href="mailto:info@blueviewbuilder.com">GET STARTED</a></div></section></main>
+<footer class="footer"><span>© 2026 BlueView Builder · California Modular Homes & ADUs</span><span>info@blueviewbuilder.com · 800-688-3017</span></footer>
+<script>
+const homes=[
+{id:'alder',name:'The Alder',tag:'SEMI CUSTOM',min:240000,max:310000,beds:3,baths:2,sqft:1680,desc:'A welcoming modern home with a considered layout, generous natural light, and room to make it your own.',img:'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1100&q=85'},
+{id:'solana',name:'The Solana',tag:'BEST CLASS',min:285000,max:360000,beds:4,baths:2.5,sqft:2040,desc:'A bright, spacious design that brings indoor and outdoor living together with contemporary ease.',img:'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1100&q=85'},
+{id:'haven',name:'The Haven',tag:'BEST CLASS',min:210000,max:275000,beds:2,baths:2,sqft:1240,desc:'A compact retreat with a smart footprint, comfortable living spaces, and a calm modern character.',img:'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1100&q=85'},
+{id:'ridge',name:'The Ridge',tag:'SEMI CUSTOM',min:265000,max:335000,beds:3,baths:2.5,sqft:1780,desc:'A confident contemporary profile with flexible living space and thoughtful separation of rooms.',img:'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1100&q=85'},
+{id:'vista',name:'The Vista',tag:'SEMI CUSTOM',min:315000,max:395000,beds:4,baths:3,sqft:2280,desc:'A larger modern home designed for gathering, hosting, and adapting to changing needs.',img:'https://images.unsplash.com/photo-1600585154526-990dcea4db0d?auto=format&fit=crop&w=1100&q=85'},
+{id:'meadow',name:'The Meadow',tag:'BEST CLASS',min:225000,max:290000,beds:3,baths:2,sqft:1480,desc:'A warm and efficient home with an easy-flowing plan and a relaxed architectural feel.',img:'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1100&q=85'}
+];
+const money=n=>'$'+n.toLocaleString('en-US');
+function render(){let b=+document.getElementById('beds').value||0,ba=+document.getElementById('baths').value||0,p=+document.getElementById('price').value||Infinity,s=+document.getElementById('size').value||Infinity;let arr=homes.filter(h=>h.beds>=b&&h.baths>=ba&&h.min<=p&&h.sqft<=s);let sort=document.getElementById('sort').value;if(sort==='price')arr.sort((a,b)=>a.min-b.min);if(sort==='size')arr.sort((a,b)=>a.sqft-b.sqft);document.getElementById('count').textContent=`Showing ${arr.length} ${arr.length===1?'home':'home concepts'}`;document.getElementById('grid').innerHTML=arr.length?arr.map(h=>`<article class="model-card" tabindex="0" role="button" aria-label="View ${h.name}" onclick="showDetail('${h.id}')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();showDetail('${h.id}')}"><div class="model-img"><img loading="lazy" decoding="async" src="${h.img}" alt="${h.name} exterior rendering" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1100&q=85'"><span class="tag">${h.tag}</span></div><div class="model-info"><div class="model-title-row"><div><h3>${h.name}</h3><span style="font-size:11px;color:#788075">Modern collection</span></div><span class="price">${money(h.min)}–${money(h.max)}</span></div><div class="specs"><span>⌂ ${h.beds} Beds</span><span>▣ ${h.baths} Baths</span><span>↔ ${h.sqft.toLocaleString()} Sq Ft</span></div><span class="view-link">VIEW MODEL →</span></div></article>`).join(''):'<div class="no-results">No homes match all selected filters. Try widening your price or size range.</div>'}
+function showDetail(id){let h=homes.find(x=>x.id===id);if(!h)return;document.getElementById('collection').classList.add('hidden');document.getElementById('detail').classList.add('active');document.getElementById('detailPhoto').style.backgroundImage=`url("${h.img}")`;document.getElementById('crumbName').textContent=h.name.toUpperCase();document.getElementById('detailTag').textContent=h.tag+' MODEL';document.getElementById('detailName').textContent=h.name;document.getElementById('detailDesc').textContent=h.desc;document.getElementById('detailPrice').textContent=money(h.min)+'–'+money(h.max);document.getElementById('detailSpecs').textContent=`${h.beds} Bedrooms · ${h.baths} Bathrooms · ${h.sqft.toLocaleString()} Sq Ft`;let subj=encodeURIComponent(h.name+' Modern Home Inquiry');document.getElementById('inquiry').href='mailto:info@blueviewbuilder.com?subject='+subj;document.getElementById('floorCta').href='mailto:info@blueviewbuilder.com?subject='+encodeURIComponent(h.name+' Floor Plan');document.getElementById('detailContact').href='mailto:info@blueviewbuilder.com?subject='+subj;window.scrollTo(0,0)}
+function showCollection(){document.getElementById('detail').classList.remove('active');document.getElementById('collection').classList.remove('hidden');window.scrollTo(0,0)}
+document.getElementById('apply').addEventListener('click',render);document.getElementById('reset').addEventListener('click',()=>{['beds','baths','price','size'].forEach(id=>document.getElementById(id).value='');document.getElementById('sort').value='featured';render()});document.getElementById('sort').addEventListener('change',render);render();
+</script>
+</body></html>
